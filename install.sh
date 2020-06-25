@@ -37,9 +37,7 @@ clone_repo(){
 install(){
     echo "进行安装。。。"
     cd ${SH_PATH}/IBMYes/v2
-    ibmcloud target --cf
-    ibmcloud cf install
-    ibmcloud cf push
+    cf push
     echo "安装完成。"
 }
 
