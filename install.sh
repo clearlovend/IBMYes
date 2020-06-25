@@ -26,7 +26,7 @@ EOF
 
 clone_repo(){
     echo "进行初始化。。。"
-    git clone https://github.com/crazyole/IBMYes
+    git clone https://github.com/clearlovend/IBMYes
     cd IBMYes
     cd v2/v2ray
     chmod +x *
